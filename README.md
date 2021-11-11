@@ -16,3 +16,11 @@ yarn add typescript # instala o typescript como depedência
 
 yarn tsc --init # inicializa o typescript
 ```
+## Estrutura do React
+> Client (Browser) ↔ Frontend ↔ Backend ↔ Database.
+## Estrutura do Next
+> Client (Browser) ↔ Next.js Frontend (↔ Internal Backend ↔ Internal Frontend ↔) ← JSON → Backend ↔ Database.
+## Requisições
+Vamos fazer requisições à REST API do GitHub.  
+> https://api.github.com/users/:username
+- Precisamos instalar o `axios` executando o comando `yarn add axios`.
