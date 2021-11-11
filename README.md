@@ -1,4 +1,4 @@
-# Next Project 01
+# Next GitHub Users
 Primeiro projeto em Next.js.
 
 ## Primeiros passos
