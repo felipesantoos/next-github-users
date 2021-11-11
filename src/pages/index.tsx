@@ -1,7 +1,19 @@
 import Head from 'next/head'
+import { useEffect } from 'react';
+import UserService from '../core/services/UserService';
 import styles from '../ui/styles/Home.module.css'
 
 export default function Home() {
+  async function find() {
+    const response = await new UserService().find("felipesantosds")
+
+    console.log(response);
+  }
+
+  useEffect(() => {
+    find();
+  }, []);
+
   return (
     <div className={styles.container}>
       <Head>
